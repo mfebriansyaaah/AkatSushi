@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkatSushi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/Akatsuki-Logo-PNG-Pic.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <img src="image/Akatsuki-Logo-PNG-Pic.png" alt="Logo">
+                    <h1>AkatSushi</h1>
+                </div>
+                <div class="header-right">
+                    <ion-icon class="darkmood" id="dark-icon" name="moon-outline"></ion-icon>
+                    <div class="search">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <input type="search" name="search" placeholder="Search here" id="">
+                    </div>
+                    <button class="button icon-button">
+                        <ion-icon name="add-circle-outline"></ion-icon>Create
+                    </button>
+                    <div class="header-user">
+                        <img src="image/profile2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="main-left">
+                    <div class="user-profile">
+                        <img src="image/profile2.jpg" alt="user image">
+                        <div class="user-name">
+                            <h4>Nartok</h4>
+                            <span>@nartok</span>
+                        </div>
+                    </div>
+                    <div class="left-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="home-outline"></ion-icon>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                    <span>People</span>
+                                </a>
+                                <span class="noti">8</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="image-outline"></ion-icon>
+                                    <span>Photos</span>
+                                </a>
+                            </li>
+                            <li class="menu-active">
+                                <a href="#">
+                                    <ion-icon name="newspaper-outline"></ion-icon>
+                                    <span>News Feed</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="settings-outline"></ion-icon>
+                                    <span>Setting</span>
+                                </a>
+                                <span class="noti gray">2</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left-invitations">
+                        <h4 class="mini-heading">
+                            Invitations
+                            <span class="noti red">4</span>
+                        </h4>
+                        <div class="invitations-card">
+                            <div class="img-box">
+                                <img src="image/profile7.JPG" alt="Invitations">
+                                <img class="small" src="image/profile8.jpg" alt="user">
+                                <h3>How to build a strong group</h3>
+                            </div>
+                            <div class="invitations-button">
+                                <button class="button">Accept Invitation</button>
+                                <button class="button only-icon">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-center">
+                    <div class="story">
+                        <div class="single-story add-story">
+                            <img class="story-bg" src="image/nar1.jpg" alt="story image">
+                            <div class="add-icon">
+                                <ion-icon name="add-outline"></ion-icon>
+                                <span>Add Story</span>
+                            </div>
+                        </div>
+                        <div class="single-story">
+                            <img class="story-bg" src="image/story1.webp" alt="story image">
+                            <img class="story-user" src="image/profile5.jpg" alt="user">
+                            <span>SikuNing</span>
+                        </div>
+                        <div class="single-story">
+                            <img class="story-bg" src="image/pro2.jpeg" alt="story image">
+                            <img class="story-user" src="image/profile4.jpg" alt="user">
+                            <span>NaxGaul</span>
+                        </div>
+                        <div class="single-story">
+                            <img class="story-bg" src="image/story3.webp" alt="story image">
+                            <img class="story-user" src="image/pro1.png" alt="user">
+                            <span>Gendutz</span>
+                        </div>
+                        <div class="single-story">
+                            <img class="story-bg" src="image/story4.webp" alt="story image">
+                            <img class="story-user" src="image/profile3.png" alt="user">
+                            <span>Hitachi</span>
+                        </div>
+                    </div>
+                    <div class="new-post">
+                        <div>
+                            <img src="image/profile2.jpg" alt="user">
+                            <input type="text" name="post" placeholder="What's new, Nartok..">
+                        </div>
+                        <button class="button icon-button">
+                            <ion-icon name="link-outline"></ion-icon>
+                            Post it!
+                        </button>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div class="post-user">
+                                <img src="image/profile6.jpg" alt="user">
+                                <h4>Sakurata <span>12 hours ago</span></h4>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </div>
+                        <div class="post-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores laboriosam est, ut mollitia asperiores sit rerum error accusamus ad reiciendis velit eaque maxime? Ex et, commodi vero corrupti amet veniam nesciunt quo dolore, cumque eius repellendus at quia quas?</p>
+                            <div class="post-image">
+                                <div>
+                                    <img src="image/sa1.jpg" alt="post image">
+                                </div>
+                                <div>
+                                    <img src="image/team1.jpg" alt="post image">
+                                    <img src="image/team.jpg" alt="post image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-right">
+                    <div class="request">
+                        <h4 class="mini-heading">
+                            Request
+                            <span class="noti">2</span>
+                        </h4>
+                        <div class="single-request">
+                            <div class="r-image-name">
+                                <img src="image/pro2.jpeg" alt="user">
+                                <h4><span>KangAer</span>
+                                wants to add you to friends
+                                </h4>
+                            </div>
+                            <div class="r-button">
+                                <button class="button">Accept</button>
+                                <button class="button button-border">Decline</button>
+                            </div>
+                        </div>
+                        <div class="single-request">
+                            <div class="r-image-name">
+                                <img src="image/sas1.jpg" alt="user">
+                                <h4><span>Saskeh</span>
+                                wants to add you to friends
+                                </h4>
+                            </div>
+                            <div class="r-button">
+                                <button class="button">Accept</button>
+                                <button class="button button-border">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <h4 class="mini-heading">
+                            Contacts
+                            <span class="noti gray">64</span>
+                        </h4>
+                        <div class="contact-list">
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/kaka1.jpeg" alt="user">
+                                    <h4>Kekashi</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/pro1.png" alt="user">
+                                    <h4>Gendutz</h4>
+                                </div>
+                                <span class="noti red">3</span>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/profile5.jpg" alt="user">
+                                    <h4>SikuNing</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/profile4.jpg" alt="user">
+                                    <h4>NaxGaul</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/profile3.png" alt="user">
+                                    <h4>Hitachi</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/profile6.jpg" alt="user">
+                                    <h4>Sakurata</h4>
+                                </div>
+                                <span class="noti red">5</span>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/lee.jpeg" alt="user">
+                                    <h4>MangLee</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                            <div class="single-contact">
+                                <div>
+                                    <img src="image/nade.jpeg" alt="user">
+                                    <h4>Sunnade</h4>
+                                </div>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let icon = document.getElementById("dark-icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.name = "sunny-outline";
+            }else{
+                icon.name = "moon-outline";
+            }
+
+
+        }
+    </script>
+</body>
+</html>
