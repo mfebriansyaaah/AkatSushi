@@ -1,5 +1,6 @@
 # try-dark-mode
-Social Media for Ninjas
+
+Social Media for Ninjas!
 
 take a look if you want to try
 
